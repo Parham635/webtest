@@ -31,14 +31,7 @@ export const Header: FC<Props> = ({ locale }) => {
         </nav>
         <ThemeSwitch />
         <LangSwitcher />
-        <a
-          href='https://github.com/yahyaparvar/nextjs-template'
-          target='_blank'
-        >
-          <div className='size-8'>
-            <GithubIcon />
-          </div>
-        </a>
+
       </div>
     </div>
   )

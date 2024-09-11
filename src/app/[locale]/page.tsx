@@ -9,7 +9,7 @@ export default function DashboardPage() {
         <h1 className='text-center text-7xl font-extrabold leading-tight'>
           {t('An')}{' '}
           <span className='bg-span-bg bg-clip-text text-transparent'>
-            {t('Booster')}
+            {t('Lumina Forge')}
           </span>
           <br />
           {t('to_Your_NextJS_Apps')}
@@ -20,22 +20,8 @@ export default function DashboardPage() {
           )}
         </div>
         <div className='mt-4 flex flex-row gap-4'>
-          <a
-            href='https://github.com/new?template_name=nextjs-template&template_owner=yahyaparvar'
-            target='_blank'
-          >
-            <Button rounded size='large'>
-              {t('Use_Template')}
-            </Button>
-          </a>
-          <a
-            href='https://github.com/yahyaparvar/nextjs-template'
-            target='_blank'
-          >
-            <Button rounded size='large' variant='secondary'>
-              {t('Learn_More')}
-            </Button>
-          </a>
+
+
         </div>
       </section>
       <section className='bg-background-secondary py-20 max-lg:py-10'>
