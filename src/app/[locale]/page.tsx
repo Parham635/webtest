@@ -7,12 +7,12 @@ export default function DashboardPage() {
     <div>
       <section className='flex flex-col items-center justify-center py-24'>
         <h1 className='text-center text-7xl font-extrabold leading-tight'>
-          {t('An')}{' '}
+          {t('')}{' '}
           <span className='bg-span-bg bg-clip-text text-transparent'>
             {t('Lumina Forge')}
           </span>
           <br />
-          {t('to_Your_NextJS_Apps')}
+          {t('AI Web Generation')}
         </h1>
         <div className='my-6 px-20 text-center text-2xl text-text-secondary'>
           {t(
